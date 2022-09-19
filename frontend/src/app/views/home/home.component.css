@@ -1,0 +1,10 @@
+.home .title{
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.home .subtitle{
+  font: 1.1rem; /*a fonte é sempre relativa a fonte padrão ou seja do elemento raiz (root em) em é relativo ao pai */
+
+}

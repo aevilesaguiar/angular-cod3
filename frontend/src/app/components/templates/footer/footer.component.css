@@ -1,0 +1,13 @@
+.footer{
+  position: fixed; /*coloca no fundo da pagina e o bottom é 0 fixa no fundo da página*/
+  bottom: 0;
+
+  display: flex;
+  justify-content: flex-end; /*fica do lado direito da pagina*/
+
+}
+
+.footer > span{
+  font-size: 1.1rem;
+  font-weight: 300;
+}

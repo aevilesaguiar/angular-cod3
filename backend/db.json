@@ -1,0 +1,69 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta BIC Preta",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Notebook Mac Pro",
+      "price": 12000.89
+    },
+    {
+      "id": 3,
+      "name": "Sansung S20+ Ultra",
+      "price": "7520.89"
+    },
+    {
+      "name": "Lapis Preto Básico",
+      "price": "1.50",
+      "id": 4
+    },
+    {
+      "name": "cadeira - preta",
+      "price": "900,50",
+      "id": 5
+    },
+    {
+      "name": "Produto de teste",
+      "price": 125.98,
+      "id": 6
+    },
+    {
+      "name": "Produto de teste",
+      "price": 125.98,
+      "id": 7
+    },
+    {
+      "name": "cadeira - azul com suporte",
+      "price": "1500.00",
+      "id": 8
+    },
+    {
+      "name": "veio do formulario'",
+      "price": "1.88",
+      "id": 9
+    },
+    {
+      "name": "Geladeira Consul",
+      "price": "1589",
+      "id": 10
+    },
+    {
+      "name": "Monitor 15 polegadas",
+      "price": "1200.25",
+      "id": 11
+    },
+    {
+      "name": "",
+      "price": 0,
+      "id": 12
+    },
+    {
+      "name": "dados",
+      "price": "1,99",
+      "id": 13
+    }
+  ]
+}
