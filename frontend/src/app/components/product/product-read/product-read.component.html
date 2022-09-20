@@ -19,6 +19,24 @@
         <td mat-cell *matCellDef="let row">{{row.price | currency: 'BRL'}}</td><!--eu posso alterar row para product e puxar product.name-->
       </ng-container>
 
+       <!-- Action Column -->
+      <ng-container matColumnDef="action">
+        <th mat-header-cell *matHeaderCellDef >Ações</th>
+        <td mat-cell *matCellDef="let row"><!--row representa um produto por isso consigo acessar os parametros-->
+            <a routerLink="/products/update/{{ row.id }}" class="edit">
+              <i class="material-icons">
+                edit
+              </i>
+            </a>
+            <a routerLink="/products/delete/{{ row.id }}" class="delete">
+              <i class="material-icons">
+                delete
+              </i>
+            </a>
+
+        </td>
+      </ng-container>
+
     <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
     <!--a parte do template que define as linhas da tabela-->
     <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
